@@ -1,0 +1,2257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.2-web/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./mystyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/bxslider/dist/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/node_modules/bxslider/dist/jquery.bxslider.min.js"></script>
+    <script src="./livesearch.js" defer></script>
+    <script src="/adaptive.js" defer></script>
+    <script src="/burger.js" defer></script>
+    <script src="/scroll.js" defer></script>
+</head>
+
+<body>
+    <div class="modal_menu">
+        <div class="modal_close">
+            <img src="./img/icons/modal_close.svg" alt="">
+        </div>
+        <div class="ober_modal">
+            <div class="ober_container">
+                <div class="phone__title">
+                    +7 (499) 283 34 67
+                </div>
+                <div class="wrapper1_schedule">
+
+                    <div class="schedule__icon">
+                        <img src="./img/icons/clock.svg" alt="">
+                    </div>
+                    <div class="schedule__title">
+                        С 8:00 до 19:00 без выходных
+                    </div>
+                </div>
+                <div class="wrapper1_mail">
+                    <div class="mail__icon">
+                        <img src="./img/icons/mail.svg" alt="">
+                    </div>
+                    <div class="mail__title">
+                        info@vent-opt-moscow.ru
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="burger">
+            <img src="./img/icons/menu.svg" alt="">
+        </div>
+        <div class="header_container container">
+            <div class="search" id="search">
+                <input name="search" placeholder="Поиск" type="text" class="input1">
+                <button type="button" class="button-search">
+                    <img src="./img/icons/send_search.svg" alt="">
+                </button>
+                <button type="button" class="close-search">
+                    <img src="./img/icons/close_search.svg" alt="">
+                </button>
+                <div class="clear"></div>
+            </div>
+            <div class="header__order">
+                <div class="order__icon">
+                    <img src="./img/icons/pen.svg" alt="">
+                </div>
+                <div class="order__title">
+                    <a href="https://vent-opt-moscow.ru/index.php?route=checkout/simplecheckout">Оформление заказа</a>
+                </div>
+            </div>
+            <div class="header_right">
+                <div class="search__icon">
+                    <img src="./img/icons/search.svg" alt="">
+                </div>
+                <div class="right__tab">
+                    <a class="tab__link" href="https://vent-opt-moscow.ru/index.php?route=account/wishlist">
+                        <div class="tab__icon">
+                            <img src="./img/icons/star.svg" alt="">
+                        </div>
+                        <div class="tab__title">
+                            Закладки
+                        </div>
+                    </a>
+
+                </div>
+                <div class="right__personal">
+                    <a class="personal__link" href="https://vent-opt-moscow.ru/index.php?route=account/account">
+                        <div class="personal__icon">
+                            <img src="./img/icons/profile.svg" alt="">
+                        </div>
+                        <div class="personal__title">
+                            Личный кабинет
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper1 wrapper">
+        <div class="wrapper1_container container">
+            <div class="wrapper1__logo">
+                <a href="https://vent-opt-moscow.ru/index.php?route=common/home">
+                    <img src="https://vent-opt-moscow.ru/image/catalog/7.png" title="Вентиляция и дымоходы "
+                        alt="Вентиляция и дымоходы " class="img-responsive">
+                </a>
+            </div>
+            <div class="ober">
+                <div class="wrapper1_schedule">
+                    <div class="schedule__icon">
+                        <img src="./img/icons/clock.svg" alt="">
+                    </div>
+                    <div class="schedule__title">
+                        С 8:00 до 19:00 без выходных
+                    </div>
+                </div>
+                <div class="wrapper1_mail">
+                    <div class="mail__icon">
+                        <img src="./img/icons/mail.svg" alt="">
+                    </div>
+                    <div class="mail__title">
+                        info@vent-opt-moscow.ru
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper1_phone">
+                <div class="phone__title">
+                    +7 (499) 283 34 67
+                </div>
+            </div>
+            <div class="wrapper1_cart">
+                <div class="cart__icon">
+                    <a href="https://vent-opt-moscow.ru/index.php?route=checkout/cart"><img src="./img/icons/cart.svg"
+                            alt=""></a>
+                </div>
+                <div class="cart__amount">
+                    0 руб.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper_1160 wrapper">
+        <hr>
+        <div class="wrapper1160_container container">
+            <div class="nav__menu">
+                <ul>
+                    <li><a href="#main">Главная</a></li>
+                    <li><a href="#production">Производство</a></li>
+                    <li><a href="#equipment">Оборудование</a></li>
+                    <li><a href="#advantages">Преимущества</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="catalog" id="main">
+        <div class="catalog_container container">
+            <div class="catalog_wrapper row1">
+                <div class="catalog__title">
+                    КАТАЛОГ ТОВАРОВ
+                </div>
+                <div class="catalog__nav">
+                    <div class="nav__menu">
+                        <ul>
+                            <li><a href="#main">Главная</a></li>
+                            <li><a href="#production">Производство</a></li>
+                            <li><a href="#equipment">Оборудование</a></li>
+                            <li><a href="#advantages">Преимущества</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="search" id="search">
+                        <input name="search" placeholder="Поиск" type="text" class="input1">
+                        <button type="button" class="button-search">
+                            <img src="./img/icons/search.svg" alt="">
+                        </button>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog_wrapper row2">
+                <div class="row2_left">
+                    <div class="catalog_products">
+                        <ul class="menu">
+                            <li class="firstli">
+                                <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=42">Вентиляция
+                                </a>
+                                <i class="fa fa-angle-right fa-angle-down"></i>
+                                <ul style="display: none;">
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=147"
+                                            class="parent">Вентиляционная автоматика </a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=155">Блоки
+                                                    управления вентиляторами бытовыми </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=153">Датчики
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=154">Преобразователи
+                                                    частотные </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=148">Регуляторы
+                                                    скорости 1Ф Soler&amp;Palau </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=149">Регуляторы
+                                                    скорости для однофазных вентиляторов </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=150">Регуляторы
+                                                    скорости для трехфазных вентиляторов </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=151">Регуляторы
+                                                    скорости трансформаторные </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=152">Температурные
+                                                    регуляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=156">Шкафы
+                                                    и щиты
+                                                    автоматики </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=157">Электроприводы
+                                                </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=169"
+                                            class="parent">Вентиляция кровельная </a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=171">Выходы
+                                                    вентиляционные </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=172">Кровельные
+                                                    проходные элементы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=170">Турбодефлекторы
+                                                </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=69"
+                                            class="parent">Воздуховоды </a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=81">Адаптеры
+                                                    из
+                                                    оцинкованной стали</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=78">Воздуховоды
+                                                    из
+                                                    пластика (ПВХ) 60Х204</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=75">Воздуховоды
+                                                    из
+                                                    пластика (ПВХ) круглые</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=76">Воздуховоды
+                                                    из
+                                                    пластика (ПВХ) 55Х110</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=77">Воздуховоды
+                                                    из
+                                                    пластика (ПВХ) 60Х120</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=70">Гибкие
+                                                    воздуховоды </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=72">Круглые
+                                                    воздуховоды из окрашенной стали </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=71">Круглые
+                                                    воздуховоды прямошовные из оцинкованной стали</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=82">Переходы
+                                                    из
+                                                    оцинкованной стали </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=80">Прямоугольные
+                                                    воздуховоды из оцинкованной стали </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=73">Спирально-навивные
+                                                    воздуховоды из оцинкованной стали </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=74">Фасонные
+                                                    части
+                                                    из оцинкованной стали</a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=119"
+                                            class="parent">Диффузоры анемостаты </a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=120">Dvk
+                                                    Диффузоры
+                                                    для круглых каналов (пластик) </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=121">Dvs
+                                                    диффузоры
+                                                    металлические </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=129">KD
+                                                    Анемостаты
+                                                    деревянные </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=124">KV
+                                                    Диффузор
+                                                    алюминиевый сопловый </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=123">ВС
+                                                    ТС
+                                                    нержавеющие диффузоры </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=94"
+                                            class="parent">Зонты
+                                            вытяжные с жироуловителями </a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=103">Жироулавливающие
+                                                    кассеты </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=220">Зонты
+                                                    вытяжные из нержавеющей стали </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=95">Зонты
+                                                    вытяжные
+                                                    из оцинкованной стали </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=98">Зонты
+                                                    вытяжные
+                                                    лабиринтные </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=100">Зонты
+                                                    кованные </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=116"
+                                            class="parent">Канальные Нагреватели </a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=117">Канальные
+                                                    нагреватели электрические для круглых каналов </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=118">Канальные
+                                                    нагреватели электрические для прямоугольных каналов </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=133"
+                                            class="parent">Люки
+                                            резиновые </a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=134">АТР
+                                                    Люки
+                                                    нажимные под плитку Евроформат-Р</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=137">ЕТР
+                                                    Люки под
+                                                    плитку нажимные Евроформат-Р </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=139">ЛСИС
+                                                    Пластиковые люки под плитку </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=143">Люки
+                                                    с
+                                                    газовыми пружинами напольные </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=85"
+                                            class="parent">Решетки
+                                            вентиляционные </a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=93">Адаптеры
+                                                    для
+                                                    решеток </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=87">Алюминиевые
+                                                    решетки </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=92">Выходы
+                                                    настенные </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=88">Металлические
+                                                    решетки стандартные </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=86">Пластиковые
+                                                    решетки </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=90">Решетки
+                                                    из
+                                                    нержавеющей стали </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=104"
+                                            class="parent">Сетевые элементы</a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=105">Воздушные
+                                                    фильтры для круглых воздуховодов </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=106">Воздушные
+                                                    фильтры для прямоугольных воздуховодов (ФЛП, ФЛПК) </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=109">Вставки
+                                                    гибкие </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=111">Дросель
+                                                    клапана прямоугольного сечения </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=110">Клапана
+                                                    для
+                                                    круглых каналов </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=115">Противопожарные
+                                                    клапана </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=112">Фильтры
+                                                    жироулавливающие кассетные для круглых каналов </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=114">Фильтры
+                                                    жироулавливающие кассетные для прямоугольных каналов </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=107">Шумоглушители
+                                                    для круглых каналов SAR ГКР</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=108">Шумоглушители
+                                                    для прямоугольных каналов SAS ГПП</a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=159"
+                                            class="parent">Установки вентиляционные </a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=166">Клапана
+                                                    приточные КИВ СВК</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=163">Приточно
+                                                    вытяжные EPVS</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=165">Приточно
+                                                    вытяжные ВУТ, ВУЭ, AIR SC с рекуперацией тепла </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=168">Проветриватели
+                                                    ВЕНТС </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=167">Установки
+                                                    приточные BREEZART, ВЕНТС</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=162">Установки
+                                                    приточные CAU OTA VEKA</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=164">Установки
+                                                    с
+                                                    рекуперацией тепла комнатные BLAUBERG</a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=48"
+                                            class="parent">Вентиляторы </a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=53">Бесшумные
+                                                    канальные вентиляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=65">Вентиляторы
+                                                    в
+                                                    шумоизолированном корпусе </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=205">Высокотемпературные
+                                                    жаростойкие вентиляторы</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=64">Вытяжной
+                                                    центробежный вентилятор вцн</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=62">Каминные
+                                                    вентиляторы дымососы</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=204">Канальные
+                                                    вентиляторы бытовые </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=61">Канальные
+                                                    вентиляторы для прямоугольных каналов </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=54">Канальные
+                                                    полупромышленные и промышленные вентиляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=60">Компактные
+                                                    канальные вентиляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=84">Крышные
+                                                    вентиляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=67">Многозональные
+                                                    вентиляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=49">Накладные
+                                                    бытовые вентиляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=68">Напольные
+                                                    вентиляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=221">Оконные
+                                                    вентиляторы</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=58">Осевые
+                                                    канальные вентиляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=59">Осевые
+                                                    промышленные и полупромышленные вентиляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=66">Потолочные
+                                                    вентиляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=57">Радиальные
+                                                    полупромышленные вентиляторы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=55">Радиальные
+                                                    промышленные вентиляторы общего назначения </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+                                    <li class="prelastul">
+                                        <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=158"
+                                            class="parent">Аксессуары для монтажа </a>
+                                        <ul class="lastul">
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=218">Герметик
+                                                    Пена
+                                                    Силикон </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=211">Крепежи
+                                                    с
+                                                    виброизоляторами </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=216">Лента
+                                                    уплотнительная </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=215">Перфолента
+                                                    монтажная оцинкованная </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=210">Скобы,
+                                                    Анкера, Болты, Шайбы </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=214">Скотч,
+                                                    клейкая лента </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=219">Теплоизоляция
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=206">Траверса
+                                                    монтажная</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=209">Уголок
+                                                    для
+                                                    производства прямоугольных воздуховодов УГФ</a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=217">Узлы
+                                                    управления дросель-клапаном </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=213">Хомуты,
+                                                    ленты
+                                                    с зажимами </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=208">Шина
+                                                    монтажная </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=207">Шпилька
+                                                    резьбовая оцинкованная </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li class="firstli">
+                                <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=180"
+                                    class="active">Дымоходы </a>
+                                <i class="fa fa-angle-right fa-angle-down"></i>
+                                <ul>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=181">Газоходы
+                                            из
+                                            нержавеющей стали </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=183">Двухконтурные
+                                            дымоходы сэндвич из нерж и оцин стали </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=184">Дымоходы
+                                            сэндвич из
+                                            окрашенной стали цвета RAL </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=187">Заглушка
+                                            с
+                                            конденсатоотводом из нержавеющей стали </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=182">Одноконтурные
+                                            дымоходы </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=186">Элементы
+                                            монтажные
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=185">Элементы
+                                            проходные
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=188">Аксессуары
+                                            для
+                                            дымоходов </a>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li class="firstli">
+                                <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=189">Кондиционеры
+                                </a>
+                                <i class="fa fa-angle-right"></i>
+                                <ul>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=190">Сплит
+                                            системы </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=191">Блоки
+                                            управления и
+                                            аксессуары для сплит-систем </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=192">Расходный
+                                            материал
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li class="firstli">
+                                <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=173">Котлы,
+                                    Камины, Печи </a>
+                                <i class="fa fa-angle-right"></i>
+                                <ul>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=176">Камины
+                                            и топки </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=175">Печи
+                                            для дома </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=174">Печи
+                                            для сауны и бани
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=177">Твердотопливные
+                                            котлы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=178">Электрические
+                                            котлы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=179">Детали
+                                            для печей и
+                                            каминов </a>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li class="firstli">
+                                <a href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=200">Отливы
+                                    из оцинкованной стали
+                                </a>
+                                <i class="fa fa-angle-right"></i>
+                                <ul>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=202">Водосточные
+                                            системы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://vent-opt-moscow.ru/index.php?route=product/category&amp;path=201">Оконные
+                                            отливы </a>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    jQuery(document).ready(function () {
+
+                        jQuery('.menu').find('ul').attr('style', 'display: none;');
+                        var i = 0;
+                        jQuery('.menu .firstli').on("click", function () {
+                            jQuery(this).find('> ul').slideToggle();
+                            checki();
+                            function checki() {
+                                if (i == 0) {
+                                    jQuery('.menu .firstli').find('i').css({ 'transform': 'rotate(-90deg)' });
+                                    i++;
+                                    return false;
+                                }
+                                if (i == 1) {
+                                    jQuery('.menu .firstli').find('i').css({ 'transform': 'rotate(0deg)' });
+                                    i--;
+                                    return false;
+                                }
+                            };
+
+                        });
+                        jQuery('.menu li ul li ').on("mouseenter", function () {
+                            jQuery(this).find('> ul').toggle();
+                        });
+                        jQuery('.menu li ul li ').on("mouseleave", function () {
+                            jQuery(this).find('> ul').toggle();
+                        });
+
+                    });
+                </script>
+
+
+
+                <!-- <div class="right_block1">
+    <div class="block1_text">
+        <div class="right__title">
+            Кондиционеры
+        </div>
+        <div class="right__subtitle">
+            <p>Короткий текст кондиционер в квартире </p>
+            <p>или офисе – не роскошь, а бытовой прибор, </p>
+            <p>без которого не обойтись.</p>
+        </div>
+        <div class="right__button">
+            <a href="">Подробнее</a>
+        </div>
+        <div class="slider_arrows">
+            <div class="arrows__left">
+                <svg width="20" height="12" viewBox="0 0 20 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M5.94246 0.741272L6.82633 1.62514L3.07644 5.37502H19.375V6.62506H3.07656L6.82633 10.3748L5.94246 11.2587L0.683672 5.99998L5.94246 0.741272Z"
+                        fill="black" />
+                </svg>
+            </div>
+            <div class="arrows__right">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14.0575 4.74127L13.1737 5.62514L16.9236 9.37502H0.625V10.6251H16.9234L13.1737 14.3748L14.0575 15.2587L19.3163 9.99998L14.0575 4.74127Z"
+                        fill="#19CAAF" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <img src="./img/slider_1.png" alt="">
+</div> -->
+
+
+
+                <div class="row2_right">
+
+
+                    <div class="slider-box" id="rotator">
+                        <ul>
+                            <li class="show">
+                                <div class="slider_block block1">
+                                    <div class="slider_text">
+                                        <div class="right__title">
+                                            Кондиционеры
+                                        </div>
+                                        <div class="right__subtitle">
+                                            <p>Короткий текст кондиционер в квартире </p>
+                                            <p>или офисе – не роскошь, а бытовой прибор, </p>
+                                            <p>без которого не обойтись.</p>
+                                        </div>
+                                        <div class="right__button">
+                                            <a href="">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slider_block block2">
+                                    <div class="slider_text">
+                                        <div class="right__title">
+                                            Кондиционеры
+                                        </div>
+                                        <div class="right__subtitle">
+                                            <p>Короткий текст кондиционер в квартире </p>
+                                            <p>или офисе – не роскошь, а бытовой прибор, </p>
+                                            <p>без которого не обойтись.</p>
+                                        </div>
+                                        <div class="right__button">
+                                            <a href="">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slider_block block3">
+                                    <div class="slider_text">
+                                        <div class="right__title">
+                                            Кондиционеры
+                                        </div>
+                                        <div class="right__subtitle">
+                                            <p>Короткий текст кондиционер в квартире </p>
+                                            <p>или офисе – не роскошь, а бытовой прибор, </p>
+                                            <p>без которого не обойтись.</p>
+                                        </div>
+                                        <div class="right__button">
+                                            <a href="">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slider_block block4">
+                                    <div class="slider_text">
+                                        <div class="right__title">
+                                            Кондиционеры
+                                        </div>
+                                        <div class="right__subtitle">
+                                            <p>Короткий текст кондиционер в квартире </p>
+                                            <p>или офисе – не роскошь, а бытовой прибор, </p>
+                                            <p>без которого не обойтись.</p>
+                                        </div>
+                                        <div class="right__button">
+                                            <a href="">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="catalog_wrapper row3">
+                <script src="./slider copy.js"></script>
+                <div class="catalog_item">
+                    <div class="item__icon">
+                        <img src="/img/icons/catalog_icon1.svg" alt="">
+                    </div>
+                    <div class="item__title">
+                        <p>Сертифицированные </p>
+                        <p>специалисты</p>
+                    </div>
+                </div>
+                <div class="catalog_item">
+                    <div class="item__icon">
+                        <img src="/img/icons/catalog_icon2.svg" alt="">
+                    </div>
+                    <div class="item__title">
+                        <p>Сертифицированное</p>
+                        <p>оборудование</p>
+                        <p>известных брендов</p>
+                    </div>
+                </div>
+
+
+                <div class="catalog_item">
+                    <div class="item__icon">
+                        <img src="/img/icons/catalog_icon3.svg" alt="">
+                    </div>
+                    <div class="item__title">
+                        <p>Оптимальные</p>
+                        <p>цены</p>
+                    </div>
+                </div>
+                <div class="catalog_item">
+                    <div class="item__icon">
+                        <img src="/img/icons/catalog_icon4.svg" alt="">
+                    </div>
+                    <div class="item__title">
+                        <p>Гарантия</p>
+                        <p>на все работы</p>
+                        <p>и оборудование</p>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog_wrapper row4">
+                <div class="row4__title">
+                    Новые поступления
+                </div>
+                <div class="slider-box-cards">
+                    <div class="slider-cards">
+                        <div class="catalog_cards">
+                            <div class="catalog_card">
+                                <div class="card_container">
+                                    <div class="card__img">
+                                        <img src="./img/card_img.png" alt="">
+                                    </div>
+                                    <div class="card__title">
+                                        Заглушка для ревизии (430/0,5 мм) Ф100 внутренняя
+                                    </div>
+                                    <div class="card__description">
+                                        Заглушка ферум D 100 для ревизии внешняя из нержавеющей стали...
+                                    </div>
+                                    <div class="card_buy">
+                                        <div class="card__price">
+                                            230.00 <span>руб.</span>
+                                        </div>
+                                        <div class="card__button">
+                                            <a href="">Купить</a>
+                                        </div>
+                                    </div>
+                                    <div class="card_label">
+                                        Новинка
+                                    </div>
+                                    <div class="card_icons">
+                                        <div class="icon__stats">
+                                            <img src="./img/icons/card_stat.svg" alt="">
+                                        </div>
+                                        <div class="icon__heart">
+                                            <img src="./img/icons/card_heart.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog_card">
+                                <div class="card_container">
+                                    <div class="card__img">
+                                        <img src="./img/card_img.png" alt="">
+                                    </div>
+                                    <div class="card__title">
+                                        Заглушка для ревизии (430/0,5 мм) Ф100 внутренняя
+                                    </div>
+                                    <div class="card__description">
+                                        Заглушка ферум D 100 для ревизии внешняя из нержавеющей стали...
+                                    </div>
+                                    <div class="card_buy">
+                                        <div class="card__price">
+                                            230.00 <span>руб.</span>
+                                        </div>
+                                        <div class="card__button">
+                                            <a href="">Купить</a>
+                                        </div>
+                                    </div>
+                                    <div class="card_label">
+                                        Новинка
+                                    </div>
+                                    <div class="card_icons">
+                                        <div class="icon__stats">
+                                            <img src="./img/icons/card_stat.svg" alt="">
+                                        </div>
+                                        <div class="icon__heart">
+                                            <img src="./img/icons/card_heart.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog_card">
+                                <div class="card_container">
+                                    <div class="card__img">
+                                        <img src="./img/card_img.png" alt="">
+                                    </div>
+                                    <div class="card__title">
+                                        Заглушка для ревизии (430/0,5 мм) Ф100 внутренняя
+                                    </div>
+                                    <div class="card__description">
+                                        Заглушка ферум D 100 для ревизии внешняя из нержавеющей стали...
+                                    </div>
+                                    <div class="card_buy">
+                                        <div class="card__price">
+                                            230.00 <span>руб.</span>
+                                        </div>
+                                        <div class="card__button">
+                                            <a href="">Купить</a>
+                                        </div>
+                                    </div>
+                                    <div class="card_label">
+                                        Новинка
+                                    </div>
+                                    <div class="card_icons">
+                                        <div class="icon__stats">
+                                            <img src="./img/icons/card_stat.svg" alt="">
+                                        </div>
+                                        <div class="icon__heart">
+                                            <img src="./img/icons/card_heart.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog_card">
+                                <div class="card_container">
+                                    <div class="card__img">
+                                        <img src="./img/card_img.png" alt="">
+                                    </div>
+                                    <div class="card__title">
+                                        Заглушка для ревизии (430/0,5 мм) Ф100 внутренняя
+                                    </div>
+                                    <div class="card__description">
+                                        Заглушка ферум D 100 для ревизии внешняя из нержавеющей стали...
+                                    </div>
+                                    <div class="card_buy">
+                                        <div class="card__price">
+                                            230.00 <span>руб.</span>
+                                        </div>
+                                        <div class="card__button">
+                                            <a href="">Купить</a>
+                                        </div>
+                                    </div>
+                                    <div class="card_label">
+                                        Новинка
+                                    </div>
+                                    <div class="card_icons">
+                                        <div class="icon__stats">
+                                            <img src="./img/icons/card_stat.svg" alt="">
+                                        </div>
+                                        <div class="icon__heart">
+                                            <img src="./img/icons/card_heart.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog_cards">
+                            <div class="catalog_card">
+                                <div class="card_container">
+                                    <div class="card__img">
+                                        <img src="./img/card_img.png" alt="">
+                                    </div>
+                                    <div class="card__title">
+                                        Заглушка для ревизии (430/0,5 мм) Ф100 внутренняя
+                                    </div>
+                                    <div class="card__description">
+                                        Заглушка ферум D 100 для ревизии внешняя из нержавеющей стали...
+                                    </div>
+                                    <div class="card_buy">
+                                        <div class="card__price">
+                                            230.00 <span>руб.</span>
+                                        </div>
+                                        <div class="card__button">
+                                            <a href="">Купить</a>
+                                        </div>
+                                    </div>
+                                    <div class="card_label">
+                                        Новинка
+                                    </div>
+                                    <div class="card_icons">
+                                        <div class="icon__stats">
+                                            <img src="./img/icons/card_stat.svg" alt="">
+                                        </div>
+                                        <div class="icon__heart">
+                                            <img src="./img/icons/card_heart.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog_card">
+                                <div class="card_container">
+                                    <div class="card__img">
+                                        <img src="./img/card_img.png" alt="">
+                                    </div>
+                                    <div class="card__title">
+                                        Заглушка для ревизии (430/0,5 мм) Ф100 внутренняя
+                                    </div>
+                                    <div class="card__description">
+                                        Заглушка ферум D 100 для ревизии внешняя из нержавеющей стали...
+                                    </div>
+                                    <div class="card_buy">
+                                        <div class="card__price">
+                                            230.00 <span>руб.</span>
+                                        </div>
+                                        <div class="card__button">
+                                            <a href="">Купить</a>
+                                        </div>
+                                    </div>
+                                    <div class="card_label">
+                                        Новинка
+                                    </div>
+                                    <div class="card_icons">
+                                        <div class="icon__stats">
+                                            <img src="./img/icons/card_stat.svg" alt="">
+                                        </div>
+                                        <div class="icon__heart">
+                                            <img src="./img/icons/card_heart.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog_card">
+                                <div class="card_container">
+                                    <div class="card__img">
+                                        <img src="./img/card_img.png" alt="">
+                                    </div>
+                                    <div class="card__title">
+                                        Заглушка для ревизии (430/0,5 мм) Ф100 внутренняя
+                                    </div>
+                                    <div class="card__description">
+                                        Заглушка ферум D 100 для ревизии внешняя из нержавеющей стали...
+                                    </div>
+                                    <div class="card_buy">
+                                        <div class="card__price">
+                                            230.00 <span>руб.</span>
+                                        </div>
+                                        <div class="card__button">
+                                            <a href="">Купить</a>
+                                        </div>
+                                    </div>
+                                    <div class="card_label">
+                                        Новинка
+                                    </div>
+                                    <div class="card_icons">
+                                        <div class="icon__stats">
+                                            <img src="./img/icons/card_stat.svg" alt="">
+                                        </div>
+                                        <div class="icon__heart">
+                                            <img src="./img/icons/card_heart.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog_card">
+                                <div class="card_container">
+                                    <div class="card__img">
+                                        <img src="./img/card_img.png" alt="">
+                                    </div>
+                                    <div class="card__title">
+                                        Заглушка для ревизии (430/0,5 мм) Ф100 внутренняя
+                                    </div>
+                                    <div class="card__description">
+                                        Заглушка ферум D 100 для ревизии внешняя из нержавеющей стали...
+                                    </div>
+                                    <div class="card_buy">
+                                        <div class="card__price">
+                                            230.00 <span>руб.</span>
+                                        </div>
+                                        <div class="card__button">
+                                            <a href="">Купить</a>
+                                        </div>
+                                    </div>
+                                    <div class="card_label">
+                                        Новинка
+                                    </div>
+                                    <div class="card_icons">
+                                        <div class="icon__stats">
+                                            <img src="./img/icons/card_stat.svg" alt="">
+                                        </div>
+                                        <div class="icon__heart">
+                                            <img src="./img/icons/card_heart.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="/card_slider.js"></script>
+            <div class="catalog_wrapper row5">
+                <div class="card_slider_arrows">
+                    <div class="card_arrows__left">
+                        <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.94246 0.741272L6.82633 1.62514L3.07644 5.37502H19.375V6.62506H3.07656L6.82633 10.3748L5.94246 11.2587L0.683672 5.99998L5.94246 0.741272Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <div class="card_arrows__right active">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.0575 4.74127L13.1737 5.62514L16.9236 9.37502H0.625V10.6251H16.9234L13.1737 14.3748L14.0575 15.2587L19.3163 9.99998L14.0575 4.74127Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="slider__button">
+                    <a href="">Смотреть еще</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper3 wrapper">
+        <div class="wrapper3_container container">
+            <div class="wrapper3__title">
+                Акции
+            </div>
+            <div class="slider-box-stock">
+                <div class="slider-stock">
+                    <div class="stock_cards">
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stock_cards">
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stock_cards">
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stock_card">
+                            <div class="card_container">
+                                <div class="card__img">
+                                    <img src="./img/stock_img.png" alt="">
+                                </div>
+                                <div class="card__title">
+                                    EPVS- 1100 приточно-вытяжная вентиляционная установка
+                                </div>
+                                <div class="card__description">
+                                    Текст пример короткое описание
+                                </div>
+                                <div class="card_buy">
+                                    <div class="card__price">
+                                        <div class="price__old">
+                                            140945.00 <span>руб.</span>
+                                        </div>
+                                        <div class="price__new">
+                                            91565.00 <span>руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card__button">
+                                        <a href="">Купить</a>
+                                    </div>
+                                </div>
+                                <div class="stock_card_label">
+                                    Акция
+                                </div>
+                                <div class="card_icons">
+                                    <div class="icon__stats">
+                                        <img src="./img/icons/card_stat.svg" alt="">
+                                    </div>
+                                    <div class="icon__heart">
+                                        <img src="./img/icons/card_heart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper3_row3">
+                <div class="card_slider_arrows">
+                    <div class="card_arrows__left">
+                        <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5.94246 0.741272L6.82633 1.62514L3.07644 5.37502H19.375V6.62506H3.07656L6.82633 10.3748L5.94246 11.2587L0.683672 5.99998L5.94246 0.741272Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <div class="card_arrows__right active">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.0575 4.74127L13.1737 5.62514L16.9236 9.37502H0.625V10.6251H16.9234L13.1737 14.3748L14.0575 15.2587L19.3163 9.99998L14.0575 4.74127Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="slider__button">
+                    <a href="">Все акции</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/stock_slider.js"></script>
+    <div class="wrapper4 wrapepr" id="production">
+        <div class="wrapper4_container container">
+            <div class="wrapper4_row1">
+                <div class="wrapper4_content">
+                    <div class="content_text">
+                        <div class="text__title">
+                            <p>Современное производство </p>
+                            <p>вентиляционного оборудования</p>
+                        </div>
+                        <div class="content_images_hide">
+                            <div class="content__img1">
+                                <img src="./img/content_img1.png" alt="">
+                            </div>
+                            <div class="content__img2">
+                                <img src="./img/content_img2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text__description">
+                            <p>Vent-Opt-Moscow.ru компания, которая занимается комплексными инженерными
+                                решениями (вентиляция, кондиционирование, дымоудаление), Инженеры,
+                                менеджеры и монтажники компании имеют многолетний опыт работы в своих
+                                сферах, а так же регулярно проходят курсы по повышению своей квалификации,
+                                что позволяет выполнять проекты максимально комфортно, профессионально
+                                и оптимальо. Вентиляция и кондиционирование воздуха необходимы в каждом
+                                помещении, ведь всем известно, что в воздухе находится куча вредных веществ,
+                                отходы заводов, выхлопы газов и прочее. Вентиляция и кондиционирование
+                                создают комфортный и благоприятный воздух, чтобы вашим легким комфортно
+                                жилось.
+                            </p>
+                            <p>
+                                Дымоудаление — процесс удаления дыма и подачи чистого воздуха для
+                                обеспечения безопасной эвакуации людей из здания при пожаре, возникшем
+                                в одном из помещений. Работа системы противодымной защиты подвержена
+                                действию множества с трудом поддающихся учёту факторов, в основе которых
+                                лежат сложные, многообразные явления, наблюдаемые при пожаре: химические
+                                реакции горючих материалов с кислородом воздуха, сложный теплообмен,
+                                диффузия, турбулентное перемешивание пространственных неизотермических
+                                потоков воздуха и продуктов горения.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content_images">
+                        <div class="content__img1">
+                            <img src="./img/content_img1.png" alt="">
+                        </div>
+                        <div class="content__img2">
+                            <img src="./img/content_img2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper4_hiderow">
+                <p>
+                    Дымоудаление — процесс удаления дыма и подачи чистого воздуха для
+                    обеспечения безопасной эвакуации людей из здания при пожаре, возникшем
+                    в одном из помещений. Работа системы противодымной защиты подвержена
+                    действию множества с трудом поддающихся учёту факторов, в основе которых
+                    лежат сложные, многообразные явления, наблюдаемые при пожаре: химические
+                    реакции горючих материалов с кислородом воздуха, сложный теплообмен,
+                    диффузия, турбулентное перемешивание пространственных неизотермических
+                    потоков воздуха и продуктов горения.
+                </p>
+            </div>
+            <div class="wrapper4_row2">
+                <div class="row2_block">
+                    <div class="block__icon">
+                        <img src="./img/icons/content_icon1.svg" alt="">
+                    </div>
+                    <div class="block__text">
+                        <p>
+                            Надёжный производитель вентиляционного оборудования, который знают во многих регионах
+                            России. Собственное
+                            производство, оборудованное станками ведущих мировых производителей, позволяет изготавливать
+                            продукцию с высокой
+                            точностью и в кратчайшие сроки.
+                        </p>
+                    </div>
+                </div>
+                <div class="row2_block">
+                    <div class="block__icon">
+                        <img src="./img/icons/content_icon2.svg" alt="">
+                    </div>
+                    <div class="block__text">
+                        <p>
+                            Производство и поставка широкого спектра вентиляционного оборудования, кондиционеров,
+                            комплектующих для кондиционирования и вентиляции, а также инструмента для установки и
+                            монтажа
+                            оборудования.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper5 wrapper" id="advantages">
+        <div class="wrapper5_container container">
+            <div class="wrapper5__h1">
+                Наши приемущества
+            </div>
+            <div class="wrapper5_cards">
+                <div class="wrapper5__card">
+                    <div class="wrapper5__icon">
+                        <img src="./img/icons/advantage_icon1.svg" alt="">
+                    </div>
+                    <div class="wrapper5__title">
+                        Гарантируем <span>точные сроки</span> изготовления и поставки
+                    </div>
+                    <div class="wrapper5__num">
+                        01
+                    </div>
+                </div>
+                <div class="wrapper5__card">
+                    <div class="wrapper5__icon">
+                        <img src="./img/icons/advantage_icon2.svg" alt="">
+                    </div>
+                    <div class="wrapper5__title">
+                        Запуск заказа в производство <span>в кратчайшие сроки</span>
+                    </div>
+                    <div class="wrapper5__num">
+                        02
+                    </div>
+                </div>
+                <div class="wrapper5__card">
+                    <div class="wrapper5__icon">
+                        <img src="./img/icons/advantage_icon3.svg" alt="">
+                    </div>
+                    <div class="wrapper5__title">
+                        <span>Гибкие условия</span> акций и скидок
+                    </div>
+                    <div class="wrapper5__num">
+                        03
+                    </div>
+                </div>
+                <div class="wrapper5__card">
+                    <div class="wrapper5__icon">
+                        <img src="./img/icons/advantage_icon4.svg" alt="">
+                    </div>
+                    <div class="wrapper5__title">
+                        <span>Комплектация изделий</span> под порядок монтажа на объекте
+                    </div>
+                    <div class="wrapper5__num">
+                        04
+                    </div>
+                </div>
+                <div class="wrapper5__card">
+                    <div class="wrapper5__icon">
+                        <img src="./img/icons/advantage_icon5.svg" alt="">
+                    </div>
+                    <div class="wrapper5__title">
+                        Расчет и выставление <span>коммерческого предложения</span>
+                    </div>
+                    <div class="wrapper5__num">
+                        05
+                    </div>
+                </div>
+                <div class="wrapper5__card">
+                    <div class="wrapper5__icon">
+                        <img src="./img/icons/advantage_icon6.svg" alt="">
+                    </div>
+                    <div class="wrapper5__title">
+                        <span>Всегда в наличии</span> вентиляционная система и крепежные материалы
+                    </div>
+                    <div class="wrapper5__num">
+                        06
+                    </div>
+                </div>
+                <div class="wrapper5__card">
+                    <div class="wrapper5__icon">
+                        <img src="./img/icons/advantage_icon7.svg" alt="">
+                    </div>
+                    <div class="wrapper5__title">
+                        Плотная укладка изделий и <span>оперативная отгрузка</span>
+                    </div>
+                    <div class="wrapper5__num">
+                        07
+                    </div>
+                </div>
+                <div class="wrapper5__card">
+                    <div class="wrapper5__icon">
+                        <img src="./img/icons/advantage_icon8.svg" alt="">
+                    </div>
+                    <div class="wrapper5__title">
+                        Соблюдение <span>сроков изготовления</span>
+                    </div>
+                    <div class="wrapper5__num">
+                        08
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper6 wrapper" id="equipment">
+        <div class="wrapper6_container container">
+            <div class="wrapper6_text">
+                <div class="wrapper6__title">
+                    Оборудование для вентиляции
+                </div>
+                <img src="./img/bottom_img.png" alt="">
+                <p>
+                    Поддержание комфортного микроклимата в помещении является основной задачей систем воздухообмена.
+                    Кроме того, качественная
+                    и эффективная вентиляция продлевает срок эксплуатации зданий. В каталоге интернет-магазина
+                    Vent-Opt-Moscow.ru представлены
+                    следующие группы оборудования и элементов для построения вентиляционных систем:
+                </p>
+
+                <ul>
+                    <li>воздуховоды;</li>
+                    <li>вентиляторы;</li>
+                    <li>дымоходы;</li>
+                    <li>оцинкованные части вентиляционных систем;</li>
+                    <li>круглые и плоские ПВХ-каналы;</li>
+                    <li>вентиляционные выходы для кровли;</li>
+                    <li>решетки.</li>
+                </ul>
+                <p>
+                    Ассортимент включает комплектующие для систем вентиляции жилых, административных, производственных,
+                    коммерческих объектов.
+                    Каталог постоянно пополняется оборудованием ведущих брендов: Blauberg, Soler & Palau, Dunli Group,
+                    MMotors JSC, Shuft, VENTS, Tornado,
+                    Tywent, «Промвент» и многих других. Практически все представленные позиции имеются в наличии на
+                    складе в Москве.
+                </p>
+                <p>
+                    Специалисты магазина оказывают консультационную поддержку и при необходимости готовы подобрать
+                    полный комплект
+                    вентиляционного оборудования и компонентов по вашим спецификациям. Вся продукция соответствует
+                    требованиям экологии
+                    и безопасности и санитарно-гигиеническим нормам.
+                </p>
+                <p>
+                    Для удобства заказчиков предлагаются несколько способов оплаты покупок. Действует служба доставки по
+                    Москве. В регионы отправка
+                    оборудования для вентиляции организуется через транспортные компании.
+                </p>
+                <p>
+                    Магазин реализует партнерскую программу, по которой стандартная агентская комиссия составляет 5 %. С
+                    её подробностями вас
+                    ознакомят менеджеры компании.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper7 wrapper" id="contacts">
+        <div class="wrapper7_container container">
+            <div class="wrapper7__column">
+                <div class="column__title">
+                    ИНФОРМАЦИЯ
+                </div>
+                <ul>
+                    <li><a href="https://vent-opt-moscow.ru/about_us">О компании</a></li>
+                    <li><a href="https://vent-opt-moscow.ru/delivery">Информация о доставке</a></li>
+                    <li><a href="https://vent-opt-moscow.ru/index.php?route=information/information&information_id=12">Способы
+                            оплаты</a></li>
+                    <li><a href="https://vent-opt-moscow.ru/privacy">Политика конфиденциальности</a></li>
+                    <li><a href="https://vent-opt-moscow.ru/index.php?route=information/information&information_id=11">Монтаж
+                            систем вентиляции</a></li>
+                </ul>
+            </div>
+            <div class="wrapper7__column right">
+                <div class="column__title">
+                    ДОПОЛНИТЕЛЬНО
+                </div>
+                <ul>
+                    <li><a href="https://vent-opt-moscow.ru/index.php?route=product/manufacturer">Производители</a></li>
+                    <li><a href="https://vent-opt-moscow.ru/index.php?route=account/voucher">Подарочные сертификаты</a>
+                    </li>
+                    <li><a href="https://vent-opt-moscow.ru/index.php?route=affiliate/account">Партнерская программа</a>
+                    </li>
+                    <li><a href="https://vent-opt-moscow.ru/index.php?route=product/special">Акции</a></li>
+                    <li><a href="https://vent-opt-moscow.ru/index.php?route=account/return/add">Возврат товара</a></li>
+                </ul>
+            </div>
+            <div class="wrapper7__column">
+                <div class="column__title">
+                    ЛИЧНЫЙ КАБИНЕТ
+                </div>
+                <ul>
+                    <li><a href="https://vent-opt-moscow.ru/index.php?route=account/account">Личный Кабинет</a></li>
+                    <li><a href="https://vent-opt-moscow.ru/index.php?route=account/order">История заказов</a></li>
+                    <li><a href="https://vent-opt-moscow.ru/index.php?route=account/wishlist">Закладки</a></li>
+                    <li><a href="https://vent-opt-moscow.ru/index.php?route=account/newsletter">Рассылка</a></li>
+                </ul>
+            </div>
+            <div class="wrapper7__column right last">
+                <div class="column__title">
+                    КОНТАКТЫ
+                </div>
+                <div class="column__number">
+                    <a href="tel:+74992833469">+7 (499) 283 34 67</a>
+                </div>
+                <ul>
+                    <li>
+                        <div class="li__icon">
+                            <img src="./img/icons/mail.svg" alt="">
+                        </div>
+                        <div class="li__text">
+                            info@vent-opt-moscow.ru
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li__icon">
+                            <img src="./img/icons/clock.svg" alt="">
+                        </div>
+                        <div class="li__text">
+                            С 8:00 до 19:00 без выходных
+                        </div>
+                    </li>
+                    <li class="location">
+                        <div class="li__icon">
+                            <img src="./img/icons/location_icon.svg" alt="">
+                        </div>
+                        <div class="li__text">
+                            Томилино,ородской округ
+                            <p>Люберцы Новорязанское</p>
+                            <p>шоссе 25 км, стр 16</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_container container">
+            <div class="footer__title">
+                Вентиляция и дымоходы © 2021
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
